@@ -1,0 +1,43 @@
+DataBase Name: postgresql-sinuous-57445
+
+Application Name: glacial-cliffs-68856
+
+=== glacial-cliffs-68856 Config Vars
+DATABASE_URL: postgres://ingrdzyboqphyg:9b4ae8a13a02ca4a6dbbbd0fe1152dda424b18cfdb663dbe648690ad6f28515c@ec2-44-213-228-107.compute-1.amazonaws.com:5432/d5hq04qb0hfq34
+
+-------------
+
+
+API_KEY
+11BEStYfou6L09z3yyyjKKIznQR7iBQ3cJ4buC7N9cc=
+bV+f2NG4Wlc12HL4fqeJ9GnDiyWOKZn1YPv0pO3WBgVTQC5hSiQ2Sh2KNro+bY7c
+
+API_TOKEN_SALT
+Fkn2RMT6ASFkwfxvI+pCX7AkgR4vTQMYLlsM3ccyYrs=
+
+ADMIN_JWT_SECRET
+wFBQU02U6ZeXNwzdQWpc2NMUkKAOIHBy8sRSXqNtTYQ=
+
+JWT_SECRET
+Mgj1QslBEOpTEK7M2bOoX2b8j5Vp96v4zmCWJZjIJsk=
+
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+ZDHyPD02lrm3O8w8WI4KpVM0G+REjK141tjudjPjG5o=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+Sa0mos2T6Pas36igyS7QkWWx7mtOFqDUYMjQoY7b1bI=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+e0zR9NtVIpDfrzQAUVo+CzGcN9H04s57BTJXUqfYFnA=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+YC4TLI72WL7BZf7GJ846kI3frUuJnLFsKSZXC2Y5JXI=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+JxW2R9echIst0kD1Y1cK6jt1y+tGlCNCGTzSFwPJXBo=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+LJc6orF5nJIX1OCZxjxHJ36CYN2g92JMU0BCJhgJ3hU=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+w2lgMVZELBUTp+9hj/p/TMbvzX3pu+pgyzSl4Rn97bo=
+padmanabaraja.r@BLRJPT127366LT bin % openssl rand -base64 32
+iFHMkVisIlC50/3/pIjF/hx/QAIqeKNzMCIe3G+/rNo=
+
+
+# path: ./.gitignore
+package-lock.json
