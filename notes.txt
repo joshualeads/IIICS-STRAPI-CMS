@@ -40,4 +40,4 @@ iFHMkVisIlC50/3/pIjF/hx/QAIqeKNzMCIe3G+/rNo=
 
 
 # path: ./.gitignore
-package-lock.json
+package-lock.json 
