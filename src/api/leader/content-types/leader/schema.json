@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leaders",
+  "info": {
+    "singularName": "leader",
+    "pluralName": "leaders",
+    "displayName": "Leader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Role": {
+      "type": "string"
+    },
+    "Short_Description": {
+      "type": "text"
+    },
+    "Profile_Picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Leader_Id": {
+      "type": "integer"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
