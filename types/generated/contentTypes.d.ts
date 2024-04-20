@@ -940,6 +940,7 @@ export interface ApiLeaderLeader extends Schema.CollectionType {
     singularName: 'leader';
     pluralName: 'leaders';
     displayName: 'Leader';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -949,7 +950,7 @@ export interface ApiLeaderLeader extends Schema.CollectionType {
     Role: Attribute.String;
     Short_Description: Attribute.Text;
     Profile_Picture: Attribute.Media;
-    Leader_Id: Attribute.Integer;
+    Leader_Id: Attribute.Integer & Attribute.Required & Attribute.Unique;
     Email: Attribute.Email;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
