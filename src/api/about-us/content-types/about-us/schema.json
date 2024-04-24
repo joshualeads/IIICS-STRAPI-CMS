@@ -56,16 +56,6 @@
       },
       "type": "richtext"
     },
-    "IIICS_Milestones": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "list.list"
-    },
     "IIICS_Milestones_Desc": {
       "pluginOptions": {
         "i18n": {

@@ -835,12 +835,6 @@ export interface ApiAboutUsAboutUs extends Schema.SingleType {
           localized: true;
         };
       }>;
-    IIICS_Milestones: Attribute.Component<'list.list', true> &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     IIICS_Milestones_Desc: Attribute.RichText &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -952,6 +946,10 @@ export interface ApiLeaderLeader extends Schema.CollectionType {
     Profile_Picture: Attribute.Media;
     Leader_Id: Attribute.Integer & Attribute.Required & Attribute.Unique;
     Email: Attribute.Email;
+    Facebook: Attribute.String;
+    Twitter: Attribute.String;
+    Instagram: Attribute.String;
+    LinkedIn: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
