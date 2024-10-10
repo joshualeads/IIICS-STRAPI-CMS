@@ -14,12 +14,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.24.1",
-    "@strapi/plugin-graphql": "^4.24.1",
-    "@strapi/plugin-i18n": "4.24.1",
-    "@strapi/plugin-users-permissions": "4.24.1",
-    "@strapi/provider-upload-cloudinary": "^4.24.1",
-    "@strapi/strapi": "4.24.1",
+    "@strapi/plugin-cloud": "4.25.13",
+    "@strapi/plugin-graphql": "^4.25.13",
+    "@strapi/plugin-i18n": "4.25.13",
+    "@strapi/plugin-users-permissions": "4.25.13",
+    "@strapi/provider-upload-cloudinary": "^4.25.13",
+    "@strapi/strapi": "4.25.13",
     "better-sqlite3": "8.6.0",
     "cloudinary": "^1.41.0",
     "pg": "^8.11.3",

@@ -940,7 +940,7 @@ export interface ApiGalleryGallery extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    Photos: Attribute.Media;
+    Photos: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -974,7 +974,7 @@ export interface ApiLeaderLeader extends Schema.CollectionType {
     Name: Attribute.String & Attribute.Required;
     Role: Attribute.String;
     Short_Description: Attribute.Text;
-    Profile_Picture: Attribute.Media;
+    Profile_Picture: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     Leader_Id: Attribute.Integer & Attribute.Required & Attribute.Unique;
     Email: Attribute.Email;
     Facebook: Attribute.String;
@@ -1047,7 +1047,7 @@ export interface ApiTestimonialTestimonial extends Schema.CollectionType {
         number
       > &
       Attribute.DefaultTo<5>;
-    Photo: Attribute.Media &
+    Photo: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
