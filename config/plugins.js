@@ -14,6 +14,7 @@ module.exports = ({ env }) => ({
     },
   },
   graphql: {
+    enabled: true,
     config: {
       endpoint: "/graphql",
       shadowCRUD: true,
@@ -23,6 +24,7 @@ module.exports = ({ env }) => ({
       apolloServer: {
         tracing: false,
       },
+      v4CompatibilityMode: true,
     },
   },
   //...
