@@ -1,3 +1,15 @@
+For Strapi Updates Always use 
+// Get Strapi Version 
+
+npx @strapi/upgrade -V
+
+npx @strapi/upgrade major --dry
+npx @strapi/upgrade minor --dry
+npx @strapi/upgrade patch --dry
+npx @strapi/upgrade latest --dry
+
+-------
+
 DataBase Name: postgresql-sinuous-57445
 
 Application Name: glacial-cliffs-68856
